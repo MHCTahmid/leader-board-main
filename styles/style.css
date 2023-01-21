@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-font-family: 'Poppins', sans-serif;
+    --main-bg-color: #9F9F9F;
+    --header-bg-color: #562EFF;
+    --header-text-color: #562EFF;
+    --By-color: #9F9F9F;
+    --author-color: #ED6B4F;
+    --rating-text-color: #A2A2A2;
+    --pink-icon: #FF4A60;
+    --orange-icon: #ED6B4F;
+    --pink-bg-color: #FFE4E8;
+    --orange-bg-color: #FEE5DF;
+}
