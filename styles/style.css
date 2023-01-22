@@ -1,12 +1,31 @@
+/************* Common Style **************/
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+body {
+    font-family: var(--main-font-family);
+    background-color: var(--main-bg-color)
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: white;
+    width: 70vw;
+    height: 85vh;
+    padding: 33px 50px;
+}
+
 :root {
     --main-font-family: 'Poppins', sans-serif;
-    --main-bg-color: #9F9F9F;
+    --main-bg-color: #F3F1FF;
     --header-bg-color: #562EFF;
     --header-text-color: #562EFF;
     --By-color: #9F9F9F;
@@ -17,3 +36,68 @@
     --pink-bg-color: #FFE4E8;
     --orange-bg-color: #FEE5DF;
 }
+
+/******************** Top Players Starts ************************/
+
+
+.section_title {
+    color: var(--header-text-color);
+    margin-bottom: 1em;
+}
+
+.player img {
+    width: 15%;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2em;
+    justify-content: center;
+}
+
+/******************** Top Players Ends ************************/
+
+hr {
+    border: 1px solid #D1D1D1;
+    margin: 30px 0;
+}
+
+/******************** Top Blogs Starts ************************/
+
+.blog {
+    width: 360px;
+    height: 120px;
+    display: flex;
+    gap: 1em;
+}
+
+.blog .thumbnail img {
+    width: 177px;
+    height: 117px;
+}
+
+.blog_title {
+    font-size: 20px;
+    line-height: 1.7em;
+}
+
+.blog_author {
+    color: var(--By-color);
+    margin-top: 0.5em;
+}
+
+.blog_author a {
+    text-decoration: none;
+    color: #562EFF;
+}
+
+
+
+/******************** Top Blogs Ends ************************/
