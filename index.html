@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leaderboard</title>
+    <!-------------------- Font-Awesome Starts --------------------------->
+    <script src="https://kit.fontawesome.com/075ec0f8b9.js" crossorigin="anonymous"></script>
+    <!-------------------- Font-Awesome Ends --------------------------->
     <!-------------------- Family Font Starts --------------------------->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,13 +23,31 @@
 <body>
 
     <!------------------ Header Starts----------------->
-    <header> </header>
+    <header>
+
+        <div class="logo">
+            <img src="images/icons/logo.png" alt="">
+            <h2>Idea</h2>
+        </div>
+
+        <div class="nav_bar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Works</a></li>
+                <li><a href=""><img src="images/icons/profile.png" alt=""></a></li>
+            </ul>
+        </div>
+
+
+    </header>
     <!------------------ Header Ends----------------->
 
-    <!--------------------- Top Player & Blog Starts -------------------->
+    <!--------------------- Main Section: Top Player, Top Blog, Latest Course ~ Starts -------------------->
     <main>
-        <!----------------- Top Players Starts ---------------->
-        <section class="container">
+        <!--------------------- Top Player & Blog Starts -------------------->
+        <!----------------- Top Player Starts ---------------->
+        <section class="container pb">
             <div class="top_players">
                 <h1 class="section_title">Top Player</h1>
                 <div class="players">
@@ -58,7 +79,7 @@
                 </div>
 
             </div>
-            <!----------------- Top Players Ends ------------------->
+            <!----------------- Top Player Ends ------------------->
             <hr>
             <!----------------- Top Blog Starts ------------------->
 
@@ -79,17 +100,150 @@
                         </div>
                     </article>
 
+                    <article class="blog">
+                        <div class="thumbnail">
+                            <img src="images/blogs/blog-2.png" alt="Blog-1">
+                        </div>
+
+                        <div class="blog-info">
+                            <h3 class="blog_title">UI cheat sheet: <br> list vs grids</h3>
+                            <p class="blog_author">By <a href="" target="_blank">Tess Gadd</a></p>
+                        </div>
+                    </article>
+
+                    <article class="blog">
+                        <div class="thumbnail">
+                            <img src="images/blogs/blog-3.png" alt="Blog-1">
+                        </div>
+
+                        <div class="blog-info">
+                            <h3 class="blog_title">7 typography tips <br> for interface design</h3>
+                            <p class="blog_author">By <a href="" target="_blank">Jeremiah Lam</a></p>
+                        </div>
+                    </article>
+
+                    <article class="blog">
+                        <div class="thumbnail">
+                            <img src="images/blogs/blog-4.png" alt="Blog-1">
+                        </div>
+
+                        <div class="blog-info">
+                            <h3 class="blog_title">Your logo is <br> copied</h3>
+                            <p class="blog_author">By <a href="" target="_blank">Ferdinand Vogler</a></p>
+                        </div>
+                    </article>
+
                 </div>
 
             </div>
-
             <!----------------- Top Blog Ends ------------------->
         </section>
+        <!--------------------- Top Player & Top Blog Ends --------------------->
+
+        <!--------------------- Latest Course Starts ---------------------->
+
+        <section class="container lc">
+            <div class="latest_course">
+                <h1 class="section_title">Lates Course</h1>
+
+                <div class="courses">
+
+                    <div class="course">
+                        <div class="course_banner">
+                            <img src="images/courses/course-1.png" alt="">
+                        </div>
+
+                        <div class="course_details">
+                            <h3 class="course_title">React - The Complete <br> Guide 2020 </h3>
+                            <p class="course_author">Reed Krakoff.</p>
+                        </div>
+
+                        <div class="course_info">
+                            <div class="raitings">
+                                <p>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star empty"></i>
+                                    4.5
+                                </p>
+                            </div>
+                            <div class="duration">
+                                <p><i class="fa-regular fa-clock"></i> 01:30 hr</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="course">
+                        <div class="course_banner">
+                            <img src="images/courses/course-2.png" alt="">
+                        </div>
+
+                        <div class="course_details">
+                            <h3 class="course_title">Powerpoint 2020 <br> Master Powerpoint Course </h3>
+                            <p class="course_author">Walter Scott</p>
+                        </div>
+
+                        <div class="course_info">
+                            <div class="raitings">
+                                <p>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star empty"></i>
+                                    4.3
+                                </p>
+                            </div>
+                            <div class="duration orange">
+                                <p><i class="fa-regular fa-clock"></i> 01:20 hr</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course">
+                        <div class="course_banner">
+                            <img src="images/courses/course-3.png" alt="">
+                        </div>
+
+                        <div class="course_details">
+                            <h3 class="course_title">The Complete JavaScript <br> Course 2020 </h3>
+                            <p class="course_author">Reed Krakoff.</p>
+                        </div>
+
+                        <div class="course_info">
+                            <div class="raitings">
+                                <p>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star empty"></i>
+                                    4.5
+                                </p>
+                            </div>
+                            <div class="duration">
+                                <p><i class="fa-regular fa-clock"></i> 01:30 hr</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--------------------- Latest Course Ends ---------------------->
+
 
     </main>
-    <!--------------------- Top Player & Top Blog Ends --------------------->
+    <!--------------------- Main Section: Top Player, Top Blog, Latest Course ~ Ends -------------------->
 
-
+    <footer>
+        <p>Copyright: 2023. By MHC Tahmid</p>
+    </footer>
 
 
 </body>
